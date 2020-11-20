@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'MullerLight', sans-serif;
+    src: url("../fonts/Fontfabric\ -\ MullerLight.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'MullerRegular', sans-serif;
+    src: url("../fonts/Fontfabric\ -\ MullerRegular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'MullerMedium', sans-serif;
+    src: url("../fonts/Fontfabric\ -\ MullerMedium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'MullerBold', sans-serif;
+    src: url("../fonts/Fontfabric\ -\ MullerBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Proxima Nova Light', sans-serif;
+    src: url('../fonts/ProximaNova-Light.eot');
+    src: url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Light.woff') format('woff'),
+    url('../fonts/ProximaNova-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin light {
+    font-family: 'MullerLight', sans-serif;
+}
+
+@mixin regular {
+    font-family: 'MullerRegular', sans-serif;
+}
+
+@mixin medium {
+    font-family: 'MullerMedium', sans-serif;
+}
+
+@mixin bold {
+    font-family: 'MullerBold', sans-serif;
+}
+
+@mixin proxima {
+    font-family: 'Proxima Nova Light', sans-serif;
+}

@@ -1,0 +1,143 @@
+@import 'fonts'
+
+html 
+    font-size: 100%
+    overflow-x: hidden
+    @media (max-width: 1200px)
+        font-size: 85%
+
+.bold
+    +bold
+    font-weight: bold
+
+
+.proxima
+    +proxima
+
+$red: #c91111
+    
+.header
+    margin-top: 10px
+    margin-bottom: 20px
+
+.header__menu
+    display: flex
+    font-display: row
+    justify-content: space-between
+    align-items: center
+    
+
+.header__tel
+    display: flex
+    align-items: center
+    font-weight: bold
+    font-size: 1.1em
+
+.btn
+    background-color: $red
+    border: none
+    border-radius: 5px 
+    color: white
+    height: 35px
+    width: 100%
+
+.main__btn 
+    border: none
+    background-color: #cd1414
+    color: #fff
+    +proxima
+    font-weight: bold
+    width: 100%
+    padding: 17px 0
+    border-radius: 5px
+
+.contacts
+    display: flex
+    justify-content: flex-end
+
+.logo
+    margin-top: 20px
+
+.opersys
+    margin-left: 40px
+
+
+
+
+
+.main 
+    &img
+        position: absolute
+        width: 100%
+        left: 0
+    &__title
+        font-size: 2.1em
+        +medium
+        color: #fff
+        margin-top: 8vh
+        & span
+            font-weight: 900
+    &__subtitle
+        +proxima
+        font-size: 1.2em
+        color: #ffffff
+        margin-top: 40px
+        margin-bottom: 50px
+        & span
+            font-weight: 900
+
+
+
+
+.advent
+    position: relative
+    top: 30vh
+    &__title
+        margin-bottom: 15vh
+        font-size: 1.7em
+        text-align: center
+    &__content
+        display: flex
+        margin-bottom: 75px
+        +proxima
+
+    &__text
+        margin-left: 40px
+
+
+
+.about
+    position: relative
+    top: 50vh
+    text-align: center
+    color: #ffffff
+    &__img
+        margin-top: 32vh
+        width: 110%
+    &__title
+        +bold
+        font-size: 1.9em
+        font-weight: 700
+        margin-top: -40px
+    &__main
+        margin-top: 9vh
+        +proxima
+        font-size: 1.1em
+        opacity: 0.9
+    &__submain
+        +proxima
+        margin-top: 6vh  
+        font-size: 1.1em
+        opacity: 0.9
+    &__numbers
+        margin-top: 7vh
+        +proxima
+        &-main
+            & span
+                +bold
+                font-size: 3em 
+                font-weight: 700
+                line-height: 1.5
+                & span
+                    font-size: 0.5em 
+                     
